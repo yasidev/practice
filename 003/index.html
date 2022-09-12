@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body dir="rtl">
+    <h1>ثبت نام</h1>
+    <fieldset>
+        <legend>فرم ثبت نام</legend>
+    <form action="yas.php" method="get">
+      <label for="name">نام و نام خانوادگی: </label>
+      <input type="text" id="name" autofocus required />
+      <br><br>
+      <label for="job">شغل/رشته تحصیلی: </label>
+      <input type="text" id="job" required>
+      <br><br>
+      <label for="birthday">تاریخ تولد: </label>
+      <input type="date" id="birthday" required>
+      <br><br>
+      <label for="phone">شماره تماس: </label>
+      <input type="tel" id="phone" required placeholder="+989929804199">
+      <br><br>
+      <label for="email">ایمیل: </label>
+      <input type="email" id="email" required placeholder="yas@gamil.com">
+      <br><br>
+      <label >جنسیت: </label>
+        <label for="زن">زن</label>
+        <input type="radio" name="جنسیت" id="زن" value="زن">
+        <label for="مرد">مرد</label>
+        <input type="radio" name="جنسیت" id="مرد" value="مرد">
+        <br><br>
+        <label >وضعیت تاهل: </label>
+        <label for="مجرد">مجرد</label>
+        <input type="radio" name="وضعیت تاهل" id="مجرد" value="مجرد">
+        <label for="متاهل">متاهل</label>
+        <input type="radio" name="وضعیت تاهل" id="متاهل" value="متاهل">
+        <br><br>
+        <label for="ادرس">آدرس محل سکونت: </label>
+        <br>
+        <textarea name="" id="ادرس" cols="25" rows="5"></textarea>
+        <br><br>
+        <label for="معرفی">معرفی: </label>
+        <br>
+        <textarea name="" id="معرفی" cols="25" rows="5"></textarea>
+        <br><br>
+        <label for="اسکن">اسکن کارت شناسایی: </label>
+        <input type="file" id="اسکن">
+        <br><br>
+        <label for="دوره">تقاضای شرکت در دوره های: </label>
+        <select name="" id="دوره" >
+            <option disabled selected>دوره</option>
+            <option value=java">java</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="SQL">SQL</option>
+            <option value="Nodejs">Nodejs</option>
+            <option value="Frontend">Frontend</option>
+
+        </select>
+    </fieldset>
+    <br>
+<input type="submit" value="ثبت نام">
+<input type="reset" value="بازنشانی">
+    </form>
+  </body>
+</html>

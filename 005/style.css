@@ -1,0 +1,53 @@
+body{
+    background-color:lightpink;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+aside{
+    float: left;
+    background-color: crimson;
+    width: 20%;
+    height: 200px;
+    position: sticky;
+    top:0;
+}
+header{
+    float: right;
+    height: 290px;
+    background-color: chartreuse;
+    width: 78%;
+    margin-bottom: 10px;
+   
+}
+main{
+    float: right;
+    background-color: cornflowerblue;
+    width: 78%;
+    height: 700px;
+}
+footer{
+    background-color: darkgreen;
+    height: 200px;
+    width: 100%;
+   
+}
+header h1{
+    text-align: center;
+    margin-top: 145px;
+    
+}
+footer h1{
+    text-align: center;
+    padding-top:100px ;
+    
+}
+main h1{
+    text-align: center;
+    margin-top:350px;
+}
